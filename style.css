@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@300;400&family=Literata:ital,wght@0,700;1,400&family=Playfair+Display:wght@400;500;800&family=Vollkorn:wght@800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kreon", serif;
+  color: ghostwhite;
+  background-color: #000000;
+  font-size: 18px;
+  background: url(/ornaments_texture1129.jpg);
+}
+
+.logoText {
+  font-size: 2em;
+  font-weight: 700;
+  color: #f05136;
+  background-color: ghostwhite;
+}
+
+.navLink {
+  color: #000000;
+  font-size: 1.5em;
+  text-decoration: none;
+  background-color: ghostwhite;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #f05136;
+}
+
+header {
+  height: 400px;
+  font-size: 10px;
+}
+
+header div p {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: initial;
+}
+
+h1,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4.2em;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+.linkButton {
+  text-decoration: none;
+  background-color: #f05136;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  color: ghostwhite;
+  font-size: 1.5em;
+  padding: 7px;
+  border-radius: 5%;
+  border-color: rgba(24, 23, 23, 0.24);
+}
+
+.linkButton:hover {
+  color: ghostwhite;
+}
+
+#bio {
+  display: flex;
+  align-items: center;
+  background-color: ghostwhite;
+}
+
+#bio img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+#bio article * {
+  margin: 20px;
+  color: black;
+}
+
+.break {
+  display: block;
+}
+
+p {
+  font-size: 1em;
+}
+
+#portfolio,
+#skills {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+#skills {
+  background-color: ghostwhite;
+  color: black;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#sets {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 10%;
+  width: 100%;
+}
+
+#sets div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills ul li {
+  margin: 10px 0;
+}
+
+#portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 10%;
+  width: 100%;
+}
+
+#portfolio h3,
+p,
+hr {
+  margin-bottom: 8px;
+}
+
+#portfolio div article {
+  background-color: ghostwhite;
+  color: black;
+  height: 210px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+  /* font-size: 16px; */
+}
+
+hr {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutMe {
+  text-align: inherit;
+}
+
+progress[value] {
+  height: 10px;
+  width: 350px;
+  -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: grey;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+  background-color: #f05136;
+}
+
+input {
+  border-radius: 3px;
+  border-color: black;
+  line-height: 2em;
+  width: 350px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: ghostwhite;
+  padding: 5px;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+#contact {
+  text-align: center;
+  padding: 40px;
+}
